@@ -21,8 +21,9 @@ body {
 }
 
 .card-container {
-  width: 90%;
-  height: 85vh;
+  /*width: 90%;*/
+  max-width: 1000px;
+  height: 570px;
   margin: 20px auto;
   background-color: #fff;
   border-radius: 10px;
@@ -38,9 +39,13 @@ body {
   color: hsl(228, 12%, 48%);
 }
 
-.card-image-container img {
+.card-image-container {
   width: 100%;
-  height: auto;
+  height: 200px;
+  background-image: url('/images/image-product-mobile.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
   border-radius: 10px 10px 0 0;
 }
 
@@ -106,4 +111,46 @@ body {
   text-decoration: none;
   color: #fff;
   text-align: center;
+}
+
+footer {
+  margin-top: 50px;
+}
+
+@media (min-width:1440px) {
+  .card-container {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .card-container {
+    height: auto;
+  }
+
+  .card-image-container {
+    flex: 50%;
+    width: 100%;
+    height: 900px;
+    background-image: url('/images/image-product-desktop.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 10px 0 0 10px;
+  }
+
+  .card-body {
+    flex: 50%;
+    width: 300px;
+    margin: 40px;
+  }
+
+  .card--sub-title {
+    font-size: 2rem;
+  }
+  .card-body h1 {
+    font-size: 4rem;
+    width: 330px;
+    margin: 35px 0 35px 0;
+    line-height: 40px;
+  }
 }
