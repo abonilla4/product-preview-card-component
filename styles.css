@@ -112,6 +112,10 @@ body {
   text-align: center;
 }
 
+.card--button:hover {
+  background-color: #1A4031;
+}
+
 footer {
   margin-top: 50px;
 }
