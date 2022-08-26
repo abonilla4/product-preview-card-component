@@ -81,5 +81,5 @@ Frontend Roadmap
 
 ## Author
 
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/abonilla4)
+- Frontend Mentor - [@abonilla4](https://www.frontendmentor.io/profile/abonilla4)
 - Twitter - [@aabonilla](https://www.twitter.com/aabonilla)
